@@ -1,525 +1,79 @@
-getgenv().Config = {
+_G.Config = {
 
-    ["Misc"] = {
+    ["Melee"] = {
 
-        ["BuyDoubleDungeonRune"] = false,
+        ["Superhuman"] = true,
 
-        ["BuyRarePowderLeg"] = false,
+        ["Death Step"] = true,
 
-        ["DashCD"] = true,
+        ["Sharkman Karate"] = true,
 
-        ["AutoEnchant"] = false,
+        ["Electric Claw"] = true,
 
-        ["SelectedEnchants"] = {},
+        ["Dragon Talon"] = true,
 
-        ["AutoChangeRelics"] = true,
-
-        ["BuyURankup"] = false,
-
-        ["AutoChangeRelicsTeam2"] = 2,
-
-        ["PunchCDIG"] = false,
-
-        ["PunchCD"] = false,
-
-        ["UISize"] = 0.75,
-
-        ["AutoChangeRelicsTeam"] = 1,
-
-        ["RelicL3"] = 0,
-
-        ["SelectedKeys"] = {
-
-            ["Leveling Key"] = true,
-
-            ["Lucky Key"] = true,
-
-            ["Mori Key"] = true,
-
-        },
-
-        ["EnchantMethod"] = "Gems",
-
-        ["SelectBoostUse"] = {},
-
-        ["AutoHideUI"] = false,
-
-        ["CraftKey"] = true,
-
-        ["BlackScreen"] = false,
-
-        ["HideName"] = true,
-
-        ["RelicL1"] = 1,
-
-        ["BuyRarePowder"] = false,
-
-        ["SelectedSword"] = "",
-
-        ["AutoChangeRelicsPercent"] = 20,
-
-        ["HideAvatar"] = true,
-
-        ["StopAmountEnchants"] = 1,
-
-        ["SelectBoostsToBuy"] = {},
-
-        ["BuyLegendaryPowder"] = false,
-
-        ["BoostUse"] = false,
-
-        ["BuySelectedBoosts"] = false,
-
-        ["AutoExec"] = true,
-
-        ["SelectedMobsRelic"] = {
-
-            ["Magma"] = true,
-
-            ["Deus"] = true,
-
-            ["Boto"] = true,
-
-            ["Shorta"] = true,
-
-        },
-
-        ["RelicL2"] = 3,
+        ["Godhuman"] = true
 
     },
 
-    ["AutoFarm"] = {
+    ["Sword"] = {
 
-        ["SelectedMobsArise"] = {
+        ["Saber"] = true,
 
-            ["Dad Monarch"] = true,
+        ["Rengoku"] = true,
 
-            ["Magma"] = true,
+        ["Canvander"] = true,
 
-            ["Shorta"] = true,
+        ["Buddy Sword"] = true,
 
-            ["Don"] = true,
+        ["Yama"] = true,
 
-            ["Snow Monarch"] = true,
+        ["Tushita"] = true,
 
-            ["Deus"] = true,
+        ["True Triple Katana"] = true,
 
-            ["God Speed"] = true,
-
-            ["White Flame"] = true,
-
-            ["Monarch"] = true,
-
-            ["Hero Hunter"] = true,
-
-            ["Statue"] = true,
-
-            ["Boto"] = true,
-
-            ["Alien"] = true,
-
-            ["Spade"] = true,
-
-            ["Baizen"] = true,
-
-            ["Cerberus"] = true,
-
-            ["Begeta"] = true,
-
-            ["Murcielago"] = true,
-
-            ["Baruto"] = true,
-
-        },
-
-        ["UpgradeSword"] = false,
-
-        ["IngameSwords"] = "",
-
-        ["SellRaritiesWeapons"] = {
-
-            ["Colossal Saber"] = true,
-
-            ["Twin Colossal Sabers"] = true,
-
-            ["Steel Axe"] = true,
-
-            ["Twin Bone Crushers"] = true,
-
-            ["Iron Naginata"] = true,
-
-            ["Blessed Blade"] = true,
-
-            ["Iron Wingblade"] = true,
-
-            ["Twin Iron Wingblades"] = true,
-
-            ["Reaper's Scythe"] = true,
-
-            ["Twin Kando Blades"] = true,
-
-            ["Obsidian Glaive"] = true,
-
-            ["Crimson Rod"] = true,
-
-            ["Twin Tridents"] = true,
-
-            ["Steel Spear"] = true,
-
-            ["Lunar Disc"] = true,
-
-            ["Dual Beholder Rods"] = true,
-
-            ["Archmage's Staff"] = true,
-
-            ["Twin Jeweled Rods"] = true,
-
-            ["Argent Spear"] = true,
-
-            ["Twin Relic Maces"] = true,
-
-            ["Royal Rapiers"] = true,
-
-            ["Spiked Maul"] = true,
-
-            ["Corsair Blade"] = true,
-
-            ["Twin Prism Scepters"] = true,
-
-            ["Twin Runic Blades"] = true,
-
-            ["Dusk Reaper"] = true,
-
-            ["Iron Scythe"] = true,
-
-            ["Oculus Blade"] = true,
-
-            ["Iron Judgment"] = true,
-
-            ["Iron Saber"] = true,
-
-            ["Iron Halberd"] = true,
-
-            ["Runic Blade"] = true,
-
-            ["Bronze War Axe"] = true,
-
-            ["Cruciform Blade"] = true,
-
-            ["Wyvern Vanquisher"] = true,
-
-            ["Twin Solar Axes"] = true,
-
-            ["Scarlet Staff"] = true,
-
-            ["Prism Blade"] = true,
-
-            ["Charged Blade"] = true,
-
-            ["Bone Crusher"] = true,
-
-            ["Eye Rod"] = true,
-
-            ["Twin Holy War Axes"] = true,
-
-            ["Steel Sword"] = true,
-
-            ["Twin Wyvern Vanquishers"] = true,
-
-            ["Beast Bane"] = true,
-
-            ["Frost Blade"] = true,
-
-            ["Draconic Axe"] = true,
-
-            ["Dual Obsidian Axes"] = true,
-
-            ["Double Troll Bane"] = true,
-
-            ["Twin Crimson Rods"] = true,
-
-            ["Colossal Scythe"] = true,
-
-            ["Leviathan Blade"] = true,
-
-            ["Twin Argent Spears"] = true,
-
-            ["Prism Scepter"] = true,
-
-            ["Silent Fang"] = true,
-
-            ["Relic Mace"] = true,
-
-            ["Bone Staff"] = true,
-
-            ["Twin Leviathan Blades"] = true,
-
-            ["Runic Axe"] = true,
-
-            ["Twin Oz Blades"] = true,
-
-            ["Solar War Axe"] = true,
-
-            ["Steel Khopesh"] = true,
-
-            ["Flame Blade"] = true,
-
-            ["Iron Kando Blade"] = true,
-
-            ["Twin Simple Wands"] = true,
-
-            ["Stellar Lance"] = true,
-
-            ["Simple Staff"] = true,
-
-            ["Titan Khopesh"] = true,
-
-            ["Hybrid War Axe"] = true,
-
-            ["Emerald Blade"] = true,
-
-            ["Twin Corsair Blades"] = true,
-
-            ["Jeweled Rod"] = true,
-
-            ["Steel Great Axe"] = true,
-
-            ["Twin Iron Naginatas"] = true,
-
-            ["Twin Sacred Axes"] = true,
-
-            ["Laruda Dagger"] = true,
-
-            ["Twin Draconic Axes"] = true,
-
-            ["Troll Bane"] = true,
-
-            ["Dual Hybrid Axes"] = true,
-
-            ["Longbow"] = true,
-
-            ["Twin Iron Sabers"] = true,
-
-            ["Titan Trident"] = true,
-
-            ["Obsidian Axe"] = true,
-
-            ["Sacred Maul"] = true,
-
-        },
-
-        ["TPDelay"] = 0.5,
-
-        ["AutoClick"] = true,
-
-        ["SelectedMobs"] = {
-
-            ["Gatou Brute"] = true,
-
-        },
-
-        ["AutoCollectQuest"] = false,
-
-        ["AutoEquipBestShadows"] = true,
-
-        ["AutoSellShadows"] = true,
-
-        ["SellRaritiesShadows"] = {
-
-            ["A"] = true,
-
-            ["C"] = true,
-
-            ["B"] = true,
-
-            ["E"] = true,
-
-            ["D"] = true,
-
-            ["SS"] = true,
-
-            ["S"] = true,
-
-        },
-
-        ["NearestMob"] = false,
-
-        ["AutoFarmMob"] = false,
-
-        ["SelectWeaponsUpgrade"] = {},
-
-        ["SelectedWorld"] = "Nen City",
-
-        ["SelectedAction"] = "Destroy",
-
-        ["AutoMounts"] = false,
-
-        ["ServerHopMount"] = false,
-
-        ["AutoSellWeapons"] = true,
-
-        ["AutoAriseMobs"] = true,
-
-        ["AutoAction"] = true,
-
-        ["SelectWeaponsToBuy"] = {},
-
-        ["TWEENDelay"] = 0.4,
-
-        ["FarmMethod"] = "Tween",
-
-        ["AutoBuyWeapons"] = false,
-
-        ["AutoCollectQuestOP"] = false,
+        ["Cursed Dual Katana"] = true
 
     },
 
-    ["AutoDungeon"] = {
+    ["Gun"] = {
 
-        ["InstantAutoFarm"] = false,
+        ["Kabucha"] = true,
 
-        ["SelectDifficulty"] = {
+        ["Acidum Rifle"] = true,
 
-            ["A"] = true,
-
-            ["S"] = true,
-
-            ["B"] = true,
-
-            ["E"] = true,
-
-            ["D"] = true,
-
-            ["SS"] = true,
-
-            ["C"] = true,
-
-        },
-
-        ["CastleRoom"] = 30,
-
-        ["InstantReplay"] = false,
-
-        ["AutoWDungeon"] = false,
-
-        ["DungeonKeys"] = {
-
-            ["Leveling Key"] = true,
-
-            ["Mori Key"] = true,
-
-            ["Lucky Key"] = true,
-
-        },
-
-        ["AutoWorldBoss"] = false,
-
-        ["AutoInfCastle"] = true,
-
-        ["ServerHopWinter"] = false,
-
-        ["WinterDoneTPLoc"] = "",
-
-        ["SelectedRunes"] = {},
-
-        ["AutoDungeonKey"] = false,
-
-        ["AutoDungeon2"] = false,
-
-        ["BossDoneTPLoc"] = "",
-
-        ["SlowerAutoFarm"] = false,
-
-        ["AutoFarmDungeon"] = true,
-
-        ["InfCastleLeaveDelay"] = 5,
-
-        ["AutoDungeon"] = true,
-
-        ["WinterHopDelay"] = 2.5,
-
-        ["SelectMap"] = {
-
-            ["DBWorld"] = true,
-
-            ["BCWorld"] = true,
-
-            ["SoloWorld"] = true,
-
-            ["NarutoWorld"] = true,
-
-            ["BleachWorld"] = true,
-
-            ["Solo2World"] = true,
-
-            ["OPMWorld"] = true,
-
-            ["DanWorld"] = true,
-
-            ["OPWorld"] = true,
-
-            ["ChainsawWorld"] = true,
-
-            ["JojoWorld"] = true,
-
-        },
-
-        ["InfCastleCheckpoint"] = true,
-
-        ["DungeonLeaveDelay"] = 2.5,
-
-        ["DungeonDelay"] = 1,
-
-        ["InstantReplay2"] = false,
-
-        ["InfCastleCheckpoint50"] = true,
-
-        ["LeaveOnBoss"] = true,
-
-        ["SelectedRoom"] = "30",
-
-        ["LeaveOnSpecificBoss"] = false,
-
-        ["AutoLeaveRoom"] = false,
-
-        ["SelectedMobsWinter"] = {},
-
-        ["SelectedRunes2"] = {},
+        ["Serpent Bow"] = true
 
     },
 
-    ["Raid"] = {
+    ["Mastery"] = {
 
-        ["AutoRaid"] = false,
-
-        ["AutoTPRaid"] = false,
-
-        ["SelectedMobs"] = {
-
-            ["Royal Red Ant"] =
-
-true,
-
-            ["Ant King"] = true,
-
-            ["Red Ant"] = true,
-
-            ["Ant Queen"] = true,
-
-        },
+        ["Sword"] = true
 
     },
 
-    ["Webhook"] = {
+    ["Setting"] = {
 
-        ["Ping"] = false,
+        ["Enabled"] = true,
 
-        ["Enabled"] = false,
+        ["Bring Mob [Less Lag]"] = true,
 
-        ["ID"] = 0,
+        ["Hop Server"] = true,
 
-        ["URL"] = "",
+        ["Reduce Lag"] = true,
 
-    },
+        ["Notifycation Remove"] = true,
+
+        ["Hop When Player Nearby"] = {
+
+            ["Enabled"] = true,
+
+            ["Radius"] = 350
+
+        }
+
+    }
 
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))();
