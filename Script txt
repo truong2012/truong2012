@@ -1,79 +1,237 @@
-_G.Config = {
-
-    ["Melee"] = {
-
-        ["Superhuman"] = true,
-
-        ["Death Step"] = true,
-
-        ["Sharkman Karate"] = true,
-
-        ["Electric Claw"] = true,
-
-        ["Dragon Talon"] = true,
-
-        ["Godhuman"] = true
-
+getgenv().Config = {
+    ["Misc"] = {
+        ["BuyDoubleDungeonRune"] = false,
+        ["AutoChangeTitle1"] = "CastleStalker",
+        ["DashCD"] = true,
+        ["AutoEnchant"] = false,
+        ["SelectedEnchants"] = {},
+        ["AutoChangeRelics"] = false,
+        ["AutoChangeTitle2"] = "Adept",
+        ["AutoChangeRelicsTeam2"] = 2,
+        ["PunchCDIG"] = false,
+        ["PunchCD"] = false,
+        ["UISize"] = 0.75,
+        ["AutoChangeRelicsTeam"] = 1,
+        ["SelectBoostsToBuy"] = {},
+        ["SelectedKeys"] = {},
+        ["EnchantMethod"] = "Gems",
+        ["SelectedMobsTitle"] = {
+            ["Magma"] = true,
+        },
+        ["SelectBoostUse"] = {},
+        ["AutoHideUI"] = true,
+        ["BoostUse"] = false,
+        ["BlackScreen"] = false,
+        ["BuySelectedBoosts"] = false,
+        ["RelicL1"] = 0,
+        ["AutoChangeTitle"] = false,
+        ["RelicL2"] = 0,
+        ["AutoChangeRelicsPercent"] = 20,
+        ["HideAvatar"] = true,
+        ["StopAmountEnchants"] = 1,
+        ["BuyLegendaryPowder"] = false,
+        ["RelicL3"] = 1,
+        ["SelectedSword"] = "",
+        ["SelectedMobsRelic"] = {
+            ["Cerberus"] = true,
+            ["Dae In"] = true,
+            ["Magma"] = true,
+            ["Shorta"] = true,
+            ["Don"] = true,
+            ["Baruto"] = true,
+            ["Michille"] = true,
+            ["Paitama"] = true,
+            ["Deus"] = true,
+            ["Monarch"] = true,
+            ["Statue"] = true,
+            ["Boto"] = true,
+            ["Beach Monarch"] = true,
+            ["Frioo"] = true,
+            ["Wesil"] = true,
+            ["Dad Monarch"] = true,
+            ["Wind"] = true,
+            ["Slime King"] = true,
+            ["Time King"] = true,
+            ["Vermillion"] = true,
+            ["Beach Vermillion"] = true,
+            ["Dor"] = true,
+            ["Murcielago"] = true,
+            ["God Speed"] = true,
+            ["Chainsaw"] = true,
+            ["White Flame"] = true,
+            ["Begeta"] = true,
+            ["Gucci"] = true,
+            ["Laruda"] = true,
+            ["Hero Hunter"] = true,
+            ["Diavolo"] = true,
+            ["Beach Ziru"] = true,
+            ["Spade"] = true,
+            ["Sortudo"] = true,
+            ["Litch"] = true,
+            ["Snow Monarch"] = true,
+            ["Tuturum"] = true,
+            ["Baizen"] = true,
+            ["Mifalcon"] = true,
+            ["Alien"] = true,
+            ["Metal"] = true,
+        },
+        ["BuyRarePowder"] = false,
+        ["HideName"] = true,
+        ["CraftKey"] = false,
+        ["BuyRarePowderLeg"] = false,
+        ["AutoExec"] = true,
+        ["BuyURankup"] = false,
+        ["AutoChangeTitlePercent"] = 20,
     },
-
-    ["Sword"] = {
-
-        ["Saber"] = true,
-
-        ["Rengoku"] = true,
-
-        ["Canvander"] = true,
-
-        ["Buddy Sword"] = true,
-
-        ["Yama"] = true,
-
-        ["Tushita"] = true,
-
-        ["True Triple Katana"] = true,
-
-        ["Cursed Dual Katana"] = true
-
+    ["AutoFarm"] = {
+        ["SelectedMobsArise"] = {
+            ["Cerberus"] = true,
+            ["Dae In"] = true,
+            ["Magma"] = true,
+            ["Shorta"] = true,
+            ["Don"] = true,
+            ["Baruto"] = true,
+            ["Litch"] = true,
+            ["Deus"] = true,
+            ["Monarch"] = true,
+            ["Statue"] = true,
+            ["Boto"] = true,
+            ["Beach Monarch"] = true,
+            ["Frioo"] = true,
+            ["Wesil"] = true,
+            ["Dad Monarch"] = true,
+            ["Slime King"] = true,
+            ["Beach Dae In"] = true,
+            ["Vermillion"] = true,
+            ["Beach Vermillion"] = true,
+            ["Snow Monarch"] = true,
+            ["Murcielago"] = true,
+            ["God Speed"] = true,
+            ["Time King"] = true,
+            ["White Flame"] = true,
+            ["Dor"] = true,
+            ["Gucci"] = true,
+            ["Laruda"] = true,
+            ["Hero Hunter"] = true,
+            ["Tuturum"] = true,
+            ["Beach Ziru"] = true,
+            ["Chainsaw"] = true,
+            ["Spade"] = true,
+            ["Begeta"] = true,
+            ["Diavolo"] = true,
+            ["Baizen"] = true,
+            ["Mifalcon"] = true,
+            ["Paitama"] = true,
+            ["Alien"] = true,
+            ["Metal"] = true,
+        },
+        ["UpgradeSword"] = false,
+        ["IngameSwords"] = "",
+        ["SellRaritiesWeapons"] = {},
+        ["TPDelay"] = 1,
+        ["AutoClick"] = true,
+        ["SelectedMobs"] = {
+            ["Beach Dae In"] = true,
+        },
+        ["AutoCollectQuest"] = false,
+        ["AutoEquipBestShadows"] = false,
+        ["AutoSellShadows"] = true,
+        ["SellRaritiesShadows"] = {
+            ["A"] = true,
+            ["C"] = true,
+            ["B"] = true,
+            ["E"] = true,
+            ["D"] = true,
+            ["SS"] = true,
+            ["S"] = true,
+        },
+        ["NearestMob"] = false,
+        ["AutoFarmMob"] = false,
+        ["SelectWeaponsUpgrade"] = {},
+        ["SelectedWorld"] = "Summer Island",
+        ["SelectedAction"] = "Destroy",
+        ["AutoMounts"] = false,
+        ["ServerHopMount"] = false,
+        ["AutoSellWeapons"] = false,
+        ["AutoAriseMobs"] = false,
+        ["AutoAction"] = true,
+        ["SelectWeaponsToBuy"] = {},
+        ["TWEENDelay"] = 0.4,
+        ["FarmMethod"] = "Tween",
+        ["AutoBuyWeapons"] = false,
+        ["AutoCollectQuestOP"] = false,
     },
-
-    ["Gun"] = {
-
-        ["Kabucha"] = true,
-
-        ["Acidum Rifle"] = true,
-
-        ["Serpent Bow"] = true
-
+    ["AutoDungeon"] = {
+        ["CastleRoom"] = 51,
+        ["AutoSummerDungeon"] = true,
+        ["AutoWorldBoss"] = false,
+        ["AutoInfCastle"] = true,
+        ["ServerHopWinter"] = false,
+        ["SelectedRunes"] = {},
+        ["AutoDungeonKey"] = false,
+        ["InfCastleCheckpoint"] = false,
+        ["SelectedMobsWinter"] = {},
+        ["SlowerAutoFarm"] = false,
+        ["InfCastleLeaveDelay"] = 2.5,
+        ["ToggleStandMiddle"] = false,
+        ["DungeonDelay"] = 1,
+        ["AutoLeaveRoom"] = true,
+        ["SelectDifficulty"] = {
+            ["A"] = true,
+            ["C"] = true,
+            ["B"] = true,
+            ["E"] = true,
+            ["D"] = true,
+            ["SS"] = true,
+            ["S"] = true,
+            ["G"] = true,
+            ["N"] = true,
+        },
+        ["InstantAutoFarm"] = false,
+        ["AutoWDungeon"] = false,
+        ["SummerLeaveDelay"] = 2.5,
+        ["WinterDoneTPLoc"] = "",
+        ["AutoDungeon"] = false,
+        ["BossDoneTPLoc"] = "",
+        ["AutoFarmDungeon"] = true,
+        ["InstantReplay"] = false,
+        ["LeaveOnBoss"] = true,
+        ["InstantReplaySummer"] = true,
+        ["AutoDungeon2"] = true,
+        ["LeaveOnSpecificBoss"] = false,
+        ["SelectMap"] = {
+            ["DBWorld"] = true,
+            ["BCWorld"] = true,
+            ["SoloWorld"] = true,
+            ["NarutoWorld"] = true,
+            ["BleachWorld"] = true,
+            ["Solo2World"] = true,
+            ["OPWorld"] = true,
+            ["DanWorld"] = true,
+            ["JojoWorld"] = true,
+            ["ChainsawWorld"] = true,
+            ["OPMWorld"] = true,
+        },
+        ["DungeonLeaveDelay"] = 2.5,
+        ["InfCastleCheckpoint50"] = true,
+        ["InstantReplay2"] = false,
+        ["ServerHopWB"] = false,
+        ["DungeonKeys"] = {},
+        ["SelectedRoom"] = "50",
+        ["SummerWave"] = 51,
+        ["SelectedRunes2"] = {},
+        ["SummerWaveL"] = true,
+        ["WinterHopDelay"] = 2.5,
     },
-
-    ["Mastery"] = {
-
-        ["Sword"] = true
-
+    ["Raid"] = {
+        ["AutoRaid"] = false,
+        ["AutoTPRaid"] = false,
+        ["SelectedMobs"] = {},
     },
-
-    ["Setting"] = {
-
-        ["Enabled"] = true,
-
-        ["Bring Mob [Less Lag]"] = true,
-
-        ["Hop Server"] = true,
-
-        ["Reduce Lag"] = true,
-
-        ["Notifycation Remove"] = true,
-
-        ["Hop When Player Nearby"] = {
-
-            ["Enabled"] = true,
-
-            ["Radius"] = 350
-
-        }
-
-    }
-
+    ["Webhook"] = {
+        ["Ping"] = false,
+        ["Enabled"] = false,
+        ["ID"] = 0,
+        ["URL"] = "",
+    },
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/KaitunBeta.RiseEvo"))();
